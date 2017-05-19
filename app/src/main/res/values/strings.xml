@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tables</string>
+	<string name="cell_hint">Table cell input</string>
+	<string name="caption_additional_information">Additional information:</string>
+</resources>

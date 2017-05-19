@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/CellEditText"
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:minHeight="@dimen/cell_text_min_height"
+	android:minWidth="@dimen/cell_text_min_width"
+
+	android:paddingStart="@dimen/cell_margin_horizontal"
+	android:paddingLeft="@dimen/cell_margin_horizontal"
+	android:paddingEnd="@dimen/cell_margin_horizontal"
+	android:paddingRight="@dimen/cell_margin_horizontal"
+
+	android:background="@android:color/transparent"
+	android:layout_gravity="center_vertical"
+	android:inputType="text"
+	android:lines="1"
+	android:text="Test"
+	/>

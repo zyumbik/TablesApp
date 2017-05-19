@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="cell_height">16dp</dimen>
+	<dimen name="cell_text_min_width">16dp</dimen>
+	<dimen name="cell_margin_horizontal">16dp</dimen>
+	<dimen name="fab_margin">16dp</dimen>
+	<dimen name="cell_margin_vertical">8dp</dimen>
+	<dimen name="cell_text_min_height">24dp</dimen>
+</resources>
