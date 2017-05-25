@@ -7,22 +7,21 @@
     android:layout_height="match_parent"
     tools:context="com.glebsabirzyanov.tables.MainActivity">
 
-	<android.support.v7.widget.RecyclerView
-		android:id="@+id/recycler_view"
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:orientation="vertical"
-		tools:listitem="@layout/table_cell"/>
-
 	<android.support.design.widget.FloatingActionButton
 		android:id="@+id/fab_add"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_gravity="bottom|end"
 		android:layout_margin="@dimen/fab_margin"
-		android:background="@android:drawable/btn_plus"
 		android:tint="@android:color/white"
 		app:fabSize="normal"
 		app:srcCompat="@drawable/ic_add_black_24dp"/>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/recycler_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:listitem="@layout/table_row"/>
 
 </FrameLayout>

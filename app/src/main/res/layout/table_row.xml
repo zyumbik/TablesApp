@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="48dp">
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="48dp"
+	android:orientation="horizontal"
+	android:weightSum="5"
+	android:baselineAligned="false">
+
+	<include
+		android:id="@+id/cell1"
+		layout="@layout/table_cell"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:text="Операционная система"/>
+
+	<View style="@style/Divider"/>
+
+	<include
+		android:id="@+id/cell2"
+		layout="@layout/table_cell"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:text="СУБД"/>
+
+	<View style="@style/Divider"/>
+
+	<include
+		android:id="@+id/cell3"
+		layout="@layout/table_cell"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:text="Мин. объем внешней памяти (МБ)"/>
+
+	<View style="@style/Divider"/>
+
+	<include
+		android:id="@+id/cell4"
+		layout="@layout/table_cell"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:text="Мин. объем оперативной памяти (МБ)"/>
+
+	<View style="@style/Divider"/>
+
+	<include
+		android:id="@+id/cell5"
+		layout="@layout/table_cell"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:text="Приблизительная цена"/>
 
 </LinearLayout>

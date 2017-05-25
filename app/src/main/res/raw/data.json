@@ -1,0 +1,23 @@
+[
+	{
+		"operatingSystem": "OS/2",
+		"databaseManagementSystem": "DB2",
+		"minimalMemory": 130,
+		"minimalRAM": 22,
+		"approximatePrice": 3343
+	},
+	{
+		"operatingSystem": "Windows/NT",
+		"databaseManagementSystem": "SQLServer",
+		"minimalMemory": 230,
+		"minimalRAM": 24,
+		"approximatePrice": 2685
+	},
+	{
+		"operatingSystem": "SCO/Linux",
+		"databaseManagementSystem": "Oracle",
+		"minimalMemory": 110,
+		"minimalRAM": 48,
+		"approximatePrice": 3745
+	}
+]

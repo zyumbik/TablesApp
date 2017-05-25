@@ -2,16 +2,23 @@
 <LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
-	android:layout_height="match_parent"
+	android:layout_height="@dimen/row_height"
 	android:layout_gravity="center_vertical"
 	android:orientation="horizontal">
 
 	<TextView
+		android:id="@+id/footer_caption"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent"
-		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:paddingStart="@dimen/cell_margin_horizontal"
+		android:paddingLeft="@dimen/cell_margin_horizontal"
+		android:paddingRight="@dimen/cell_margin_horizontal"
+		android:paddingEnd="@dimen/cell_margin_horizontal"
 		android:text="@string/caption_additional_information"/>
 
-	<include layout="@layout/table_cell"/>
+	<include
+		android:id="@+id/footer_text"
+		layout="@layout/table_cell"/>
 
 </LinearLayout>
